@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class HomeApp extends Component {
-
-	test() {
-		return 1;
-	}
-
 	render() {
 		return (
 			<div>
@@ -16,8 +11,5 @@ class HomeApp extends Component {
 	}
 }
 
-HomeApp.propTypes = {
-  
-}
 
-export default HomeApp
+export default HomeApp;
